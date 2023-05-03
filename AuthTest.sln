@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3F1D3A17-C60A-44D3-B875-A51BE874E860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "src\IdentityServer\IdentityServer.csproj", "{288AD6B9-870D-40E1-AC41-062EB0381FA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "src\Api\Api.csproj", "{A3FFE12A-2165-4142-91FB-65156D0FB51A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "src\Client\Client.csproj", "{4B1C46C1-4A7E-4E62-8C3F-727C77FD873A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{288AD6B9-870D-40E1-AC41-062EB0381FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288AD6B9-870D-40E1-AC41-062EB0381FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288AD6B9-870D-40E1-AC41-062EB0381FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288AD6B9-870D-40E1-AC41-062EB0381FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FFE12A-2165-4142-91FB-65156D0FB51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FFE12A-2165-4142-91FB-65156D0FB51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FFE12A-2165-4142-91FB-65156D0FB51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FFE12A-2165-4142-91FB-65156D0FB51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B1C46C1-4A7E-4E62-8C3F-727C77FD873A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1C46C1-4A7E-4E62-8C3F-727C77FD873A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1C46C1-4A7E-4E62-8C3F-727C77FD873A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1C46C1-4A7E-4E62-8C3F-727C77FD873A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{288AD6B9-870D-40E1-AC41-062EB0381FA2} = {3F1D3A17-C60A-44D3-B875-A51BE874E860}
+		{A3FFE12A-2165-4142-91FB-65156D0FB51A} = {3F1D3A17-C60A-44D3-B875-A51BE874E860}
+		{4B1C46C1-4A7E-4E62-8C3F-727C77FD873A} = {3F1D3A17-C60A-44D3-B875-A51BE874E860}
+	EndGlobalSection
+EndGlobal
